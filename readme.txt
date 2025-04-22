@@ -1,4 +1,4 @@
-This example is from 4.2 int eh Antlr 4 Difnitive Reference:
+This example is from 4.2 in the Antlr 4 Definitive Reference:
 
 For this calculator example, we need a 'visitor' that computes 
 and returns a value by walking the parse tree.  You can use antlr 
