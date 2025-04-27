@@ -1,4 +1,7 @@
-This example is from 4.2 int eh Antlr 4 Difnitive Reference:
+SCL (Simple Calculator Language)
+
+This example started with section 4.2 example from Antlr 4 
+Difnitive Reference text:
 
 For this calculator example, we need a 'visitor' that computes 
 and returns a value by walking the parse tree.  You can use antlr 
@@ -23,6 +26,10 @@ javac -cp .:antlr-4.13.2-complete.jar Calc.java LabeledExpr*.java
 and run the example fromt he command line with:
 
 java -cp .:./antlr-4.13.2-complete.jar Calc t.expr
+
+or use:
+
+grun SMLParser prog -gui
 
 
 which will give the following output of:
